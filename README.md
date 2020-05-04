@@ -40,12 +40,12 @@ The database schema includes the following tables:
 
 In addition to the data files, the project workspace includes six files:
 
-1. [test.ipynb]('test.ipynb') displays the first few rows of each table to let you check your database.
-2. [create_tables.py]('create_tables.py') drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
-3. [etl.ipynb]('etl.ipynb') reads and processes a single file from `song_data` and `log_data` and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
-4. [etl.py]('etl.py') reads and processes files from `song_data` and `log_data` and loads them into your tables. You can fill this out based on your work in the ETL notebook.
-5. [sql_queries.py]('sql_queries.py') contains all your sql queries, and is imported into the last three files above.
-6. [README.md]('README.md') provides discussion on your project.
+1. [test.ipynb]('./test.ipynb') displays the first few rows of each table to let you check your database.
+2. [create_tables.py]('./create_tables.py') drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
+3. [etl.ipynb]('./etl.ipynb') reads and processes a single file from `song_data` and `log_data` and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
+4. [etl.py]('./etl.py') reads and processes files from `song_data` and `log_data` and loads them into your tables. You can fill this out based on your work in the ETL notebook.
+5. [sql_queries.py]('./sql_queries.py') contains all your sql queries, and is imported into the last three files above.
+6. [README.md]('./README.md') provides discussion on your project.
 
 ## Installation
 
